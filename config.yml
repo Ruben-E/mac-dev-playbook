@@ -12,6 +12,7 @@ homebrew_installed_packages:
   - jenv
   - jq
   - ncdu
+  - nvm
   - rclone
   - restic
   - tldr
@@ -22,33 +23,56 @@ homebrew_installed_packages:
   - zsh
   - zsh-completions
   
+ homebrew_cask_apps:
+  - 1password
+  - insomnia
+  - aerial
+  - cleanmymac
+  - iterm2
+  - contexts
+  - java
+  - alfred
+  - jetbrains-toolbox
+  - numi
+  - appcleaner
+  - discord
+  - joplin
+  - docker
+  - tunnelblick
+  - postman
+  - logitech-camera-settings
+  - firefox
+  - skype
+  - slack
+  - zoom
+  - sourcetree
+  - spotify
+  - google-chrome
+  - microsoft-office
+  - microsoft-teams
+  - steelseries-exactmouse-tool
+  - handbrake
+  
   
 mas_installed_apps:
-  - { id: 443987910, name: "1Password" }
+  - { id: 417375580, name: "BetterSnapTool" }
   - { id: 498486288, name: "Quick Resizer" }
-  - { id: 557168941, name: "Tweetbot" }
-  - { id: 497799835, name: "Xcode" }
+  - { id: 1451685025, name: "WireGuard" }
+  - { id: 937984704, name: "Amphetamine" }
 
 composer_packages:
-  - name: hirak/prestissimo
-  - name: drush/drush
-    version: '^8.1'
 
 gem_packages:
-  - name: bundler
-    state: latest
 
 npm_packages:
-  - name: webpack
 
 pip_packages:
-  - name: mkdocs
 
-configure_dock: true
-dockitems_remove:
-  - Launchpad
-  - TV
-dockitems_persist:
-  - name: "Sublime Text"
-    path: "/Applications/Sublime Text.app/"
-    pos: 5
+# configure_dock: true
+# dockitems_remove:
+#   - Launchpad
+#   - TV
+# dockitems_persist:
+#   - name: "Sublime Text"
+#     path: "/Applications/Sublime Text.app/"
+#     pos: 5
