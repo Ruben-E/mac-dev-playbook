@@ -1,3 +1,5 @@
+configure_dotfiles: false
+
 homebrew_installed_packages:
   - asciidoctor
   - asciinema
@@ -60,13 +62,6 @@ mas_installed_apps:
   - { id: 1451685025, name: "WireGuard" }
   - { id: 937984704, name: "Amphetamine" }
 
-composer_packages:
-
-gem_packages:
-
-npm_packages:
-
-pip_packages:
 
 # configure_dock: true
 # dockitems_remove:
