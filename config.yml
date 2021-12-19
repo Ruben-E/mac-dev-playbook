@@ -1,12 +1,24 @@
 ---
-configure_dotfiles: false
+configure_dotfiles: true
+configure_terminal: false
+configure_osx: true
+configure_dock: true
+
+dotfiles_repo: https://github.com/Ruben-E//dotfiles.git
+dotfiles_repo_accept_hostkey: true
+dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
+dotfiles_files:
+  - .gitignore
+  - .inputrc
+  - .osx
+  - .vimrc
+  - .zshrc
 
 homebrew_installed_packages:
   - asciidoctor
   - asciinema
   - autojump
   - awscli
-  - cloudfoundry/tap/cf-cli
   - git
   - glances
   - gradle
@@ -16,6 +28,8 @@ homebrew_installed_packages:
   - jq
   - ncdu
   - nvm
+  - podman
+  - pure
   - rclone
   - restic
   - tldr
@@ -25,7 +39,9 @@ homebrew_installed_packages:
   - yarn
   - zsh
   - zsh-completions
-  
+  - zsh-autosuggestions
+  - zsh-syntax-highlighting
+
 homebrew_cask_apps:
   - 1password
   - insomnia
@@ -33,17 +49,14 @@ homebrew_cask_apps:
   - cleanmymac
   - iterm2
   - contexts
-  - java
   - alfred
   - jetbrains-toolbox
   - numi
   - appcleaner
   - discord
   - joplin
-  - docker
   - tunnelblick
   - postman
-  - logitech-camera-settings
   - firefox
   - skype
   - slack
@@ -53,22 +66,38 @@ homebrew_cask_apps:
   - google-chrome
   - microsoft-office
   - microsoft-teams
-  - steelseries-exactmouse-tool
   - handbrake
-  
-  
+  - visual-studio-code
+  - font-fira-code
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+  - homebrew/cask-fonts
+
 mas_installed_apps:
   - { id: 417375580, name: "BetterSnapTool" }
-  - { id: 498486288, name: "Quick Resizer" }
   - { id: 1451685025, name: "WireGuard" }
   - { id: 937984704, name: "Amphetamine" }
 
-
-# configure_dock: true
-# dockitems_remove:
-#   - Launchpad
-#   - TV
-# dockitems_persist:
-#   - name: "Sublime Text"
-#     path: "/Applications/Sublime Text.app/"
-#     pos: 5
+dockitems_remove:
+  - Launchpad
+  - TV
+  - Safari
+  - Messages
+  - Mail
+  - Maps
+  - Photos
+  - FaceTime
+  - Calendar
+  - Contacts
+  - Reminders
+  - Notes
+  - Music
+  - Podcasts
+  - Keynote
+  - Numbers
+  - Pages
+  - App Store
+  - System Preferences
+dockitems_persist: []
