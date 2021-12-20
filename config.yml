@@ -69,11 +69,15 @@ homebrew_cask_apps:
   - handbrake
   - visual-studio-code
   - font-fira-code
+  - steelseries-exactmouse-tool
+  - logitech-camera-settings
+  - intune-company-portal
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-fonts
+  - homebrew/cask-drivers
 
 mas_installed_apps:
   - { id: 417375580, name: "BetterSnapTool" }
