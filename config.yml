@@ -41,6 +41,9 @@ homebrew_installed_packages:
   - zsh-completions
   - zsh-autosuggestions
   - zsh-syntax-highlighting
+  - pango
+  - zlib
+  - cairo
 
 homebrew_cask_apps:
   - 1password
