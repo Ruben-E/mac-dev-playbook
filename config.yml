@@ -27,8 +27,7 @@ homebrew_installed_packages:
   - jenv
   - jq
   - ncdu
-  - nvm
-  - podman
+  - docker
   - pure
   - rclone
   - restic
@@ -42,6 +41,8 @@ homebrew_installed_packages:
   - zsh-autosuggestions
   - zsh-syntax-highlighting
   - pkg-config
+  - maven
+  - sdkman
 
 homebrew_cask_apps:
   - 1password
@@ -71,10 +72,14 @@ homebrew_cask_apps:
   - visual-studio-code
   - font-fira-code
   - steelseries-exactmouse-tool
-  - logitech-camera-settings
   - intune-company-portal
   - citrix-workspace
   - chromium
+  - trello
+  - kap
+  - brave-browser
+  - steam
+  - obsidian
 
 homebrew_taps:
   - homebrew/core
