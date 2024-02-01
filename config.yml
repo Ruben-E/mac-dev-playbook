@@ -4,7 +4,7 @@ configure_terminal: false
 configure_osx: true
 configure_dock: true
 
-dotfiles_repo: https://github.com/Ruben-E//dotfiles.git
+dotfiles_repo: https://github.com/Ruben-E/dotfiles.git
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
 dotfiles_files:
@@ -42,7 +42,7 @@ homebrew_installed_packages:
   - zsh-syntax-highlighting
   - pkg-config
   - maven
-  - sdkman
+  - zplug
 
 homebrew_cask_apps:
   - 1password
@@ -56,14 +56,11 @@ homebrew_cask_apps:
   - numi
   - appcleaner
   - discord
-  - joplin
-  - tunnelblick
   - postman
   - firefox
   - skype
   - slack
   - zoom
-  - sourcetree
   - spotify
   - google-chrome
   - microsoft-office
@@ -71,21 +68,15 @@ homebrew_cask_apps:
   - handbrake
   - visual-studio-code
   - font-fira-code
-  - steelseries-exactmouse-tool
-  - intune-company-portal
-  - citrix-workspace
   - chromium
-  - trello
   - kap
   - brave-browser
   - steam
   - obsidian
+  - font-jetbrains-mono
 
 homebrew_taps:
-  - homebrew/core
-  - homebrew/cask
   - homebrew/cask-fonts
-  - homebrew/cask-drivers
 
 mas_installed_apps:
   - { id: 417375580, name: "BetterSnapTool" }
@@ -111,5 +102,6 @@ dockitems_remove:
   - Numbers
   - Pages
   - App Store
-  - System Preferences
+  - System Settings
+  - Freeform
 dockitems_persist: []
