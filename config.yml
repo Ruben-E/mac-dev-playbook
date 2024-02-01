@@ -37,9 +37,6 @@ homebrew_installed_packages:
   - wrk
   - yarn
   - zsh
-  - zsh-completions
-  - zsh-autosuggestions
-  - zsh-syntax-highlighting
   - pkg-config
   - maven
   - zplug
